@@ -1,5 +1,6 @@
 body{
     height: 500vh;
+    padding: 0;
 }
 header {
     .header_top {
@@ -14,8 +15,8 @@ header {
                             list-style: none;
 
                             a {
-                                text-decoration: none;
                                 color: black;
+                                text-decoration: none;
                             }
 
                             i {
@@ -194,5 +195,74 @@ main{
         }
     }
 }
+
+#subscribe {
+    height: 15vh;
+    margin-top: 40px;
+    background-color: grey;
+
+    .description {
+        color: black;
+        margin-top: 1%;
+    }
+
+    .input {
+        border-radius: 10px solid black;
+        height: 7vh;
+        align-items: flex-end;
+        background-color: white;
+        margin-top: 3%;
+
+        input {
+            margin-top: 2%;
+            border: 0;
+        }
+
+        button {
+            width: 24%;
+        }
+    }
+}
+
+#footer_navbar{
+    height: 37vh;
+    background-color: rgb(31, 31, 31);
+    .navbar_footeer{
+        h4{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        ul{
+           
+            li{
+                list-style: none;
+                color: white;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: #E96B56;
+                    }
+                }
+
+                .fa-angle-right{
+                    color: #E96B56;
+                }
+                .fa-brands{
+                    padding: 8px;
+                    background-color: grey;
+                    border-radius: 10px;
+                }
+                .fa-brands:hover{
+                    background-color: #E96B56;
+                }
+            }
+            
+        }
+    }
+}
+
 
 

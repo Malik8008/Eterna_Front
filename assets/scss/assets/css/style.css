@@ -1,5 +1,6 @@
 body {
   height: 500vh;
+  padding: 0;
 }
 
 header .header_top {
@@ -16,8 +17,8 @@ header .header_top .container .row .header_contact .mail li {
 }
 
 header .header_top .container .row .header_contact .mail li a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 header .header_top .container .row .header_contact .mail li i {
@@ -177,5 +178,76 @@ main .menu .container .row .box .basket .description p {
   width: 80px;
   margin-left: 47%;
   background-color: #e96B56;
+}
+
+#subscribe {
+  height: 15vh;
+  margin-top: 40px;
+  background-color: grey;
+}
+
+#subscribe .description {
+  color: black;
+  margin-top: 1%;
+}
+
+#subscribe .input {
+  border-radius: 10px solid black;
+  height: 7vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: white;
+  margin-top: 3%;
+}
+
+#subscribe .input input {
+  margin-top: 2%;
+  border: 0;
+}
+
+#subscribe .input button {
+  width: 24%;
+}
+
+#footer_navbar {
+  height: 37vh;
+  background-color: #1f1f1f;
+}
+
+#footer_navbar .navbar_footeer h4 {
+  color: white;
+}
+
+#footer_navbar .navbar_footeer p {
+  color: white;
+}
+
+#footer_navbar .navbar_footeer ul li {
+  list-style: none;
+  color: white;
+}
+
+#footer_navbar .navbar_footeer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer_navbar .navbar_footeer ul li a:hover {
+  color: #E96B56;
+}
+
+#footer_navbar .navbar_footeer ul li .fa-angle-right {
+  color: #E96B56;
+}
+
+#footer_navbar .navbar_footeer ul li .fa-brands {
+  padding: 8px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+#footer_navbar .navbar_footeer ul li .fa-brands:hover {
+  background-color: #E96B56;
 }
 /*# sourceMappingURL=style.css.map */
